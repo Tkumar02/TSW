@@ -142,13 +142,13 @@ body{
 }
 
 .success-message{
-    font-size: 4rem;
+    font-size: 2rem;
     color: darkblue;
     font-family: 'Dancing Script', cursive;
     background-color: goldenrod;
     border: 3px solid goldenrod;
     align-self: flex-start;
-    margin-top: 3em;
+    margin-top: 0.5em;
 }
 
 .fullpage{
@@ -224,3 +224,15 @@ body{
     margin-bottom: 1rem;
     justify-content: center;
 }
+
+.container#success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back-home{
+   font-size: 1em; 
+   margin-top: 2em;
+}
+
